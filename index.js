@@ -24,7 +24,16 @@
 
 
 
-//12/9
+//12/9 function
+
+
+//12/12
+console .log('______________');
+
+const str = 'The quick brown fox';
+
+const newStr = str.slice(17);
+console.log(newStr);
 
 
 

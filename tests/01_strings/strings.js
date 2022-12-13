@@ -5,7 +5,9 @@ function doesInclude(str, letter) {
 }
 
 function isPalindrome(str) {
-
+const str2 = str.split('').reverse();
+console.log(str2);
+if (str === str2)
 }
 
 function cap(str, letter) {

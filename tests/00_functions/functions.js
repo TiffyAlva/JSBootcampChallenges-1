@@ -24,8 +24,19 @@ function evenOrOdd(num1) {
  
 }
 
-function operator() {
-
+function operator(n1, n2, n3) {
+if (n1 + n2 === n3) {
+  return 'plus'
+}
+else if (n1 -n2 ===n3){
+  return 'minus'
+}
+else if (n1 * n2 ===n3) {
+  return 'multiply'
+}
+if (n1 / n2 ===n3){
+  return 'divide';
+}
 }
 
 module.exports = {

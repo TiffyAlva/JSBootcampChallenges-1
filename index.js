@@ -28,12 +28,20 @@
 
 
 //12/12
-console .log('______________');
+// console .log('______________');
 
-const str = 'The quick brown fox';
+// const str = 'The quick brown fox';
 
-const newStr = str.slice(17);
-console.log(newStr);
+// const newStr = str.slice(17);
+// console.log(newStr);
+
+
+//12/14
+
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+    
+}
 
 
 
